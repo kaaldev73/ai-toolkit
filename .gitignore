@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Output (generated files)
+output/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
