@@ -12,14 +12,6 @@ class WorkItemService:
 
     @staticmethod
     def create(work_item: WorkItem) -> Path:
-        """
-        Creates a complete work item.
-
-        Workflow
-        --------
-        1. Create work item folder
-        2. Create metadata.yaml
-        """
 
         folder = FileSystemService.create_work_item_folder(
             work_item
