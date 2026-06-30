@@ -38,33 +38,3 @@ class WorkItemFactory:
             work_type=work_type,
             title=title,
         )
-
-    @classmethod
-    def create_bug(
-        cls,
-        title: str,
-    ) -> WorkItem:
-        return cls.create(
-            work_type="bug",
-            title=title,
-        )
-
-    @classmethod
-    def create_feature(
-        cls,
-        title: str,
-    ) -> WorkItem:
-        return cls.create(
-            work_type="feature",
-            title=title,
-        )
-
-    @classmethod
-    def create_refactor(
-        cls,
-        title: str,
-    ) -> WorkItem:
-        return cls.create(
-            work_type="refactor",
-            title=title,
-        )
